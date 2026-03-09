@@ -21,7 +21,7 @@ Este projeto é uma **API RESTful** desenvolvida em **Spring Boot** para gerenci
 
 ---
 
-## 🏗 Arquitetura e Padrões
+## Arquitetura e Padrões
 
 A aplicação adota uma arquitetura em camadas (***Layered Architecture***) utilizando o padrão **MVC**, garantindo separação de responsabilidades (Controller, Service, Repository, Entity, DTO) para facilitar testes, escalabilidade e manutenção.
 
@@ -73,7 +73,7 @@ O **`JwtAuthenticationFilter`** assina o controle da request verificando validad
 
 ---
 
-## ⚠️ Tratamento de Erros
+## Tratamento de Erros
 
 Em vez das stack traces padrão (feias), criamos exceptions específicas para cada situação previsível, capturadas e transformadas em JSON claro e compreensível:
 
