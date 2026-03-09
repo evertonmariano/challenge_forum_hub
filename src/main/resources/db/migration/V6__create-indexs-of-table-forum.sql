@@ -1,0 +1,1 @@
+CREATE INDEX idx_forum_course_id ON forums(course_id);
